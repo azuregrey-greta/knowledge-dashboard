@@ -1,0 +1,9 @@
+{
+  "id": "knowledge-dashboard",
+  "name": "Knowledge Dashboard",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "知识消化看板：以消化方式为任务轴，展示任务总览与今日待办。",
+  "author": "YanGeng",
+  "isDesktopOnly": false
+}
