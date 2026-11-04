@@ -1,0 +1,176 @@
+.kd-container {
+  padding: 16px 20px;
+  font-size: 14px;
+}
+.kd-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.kd-header h2 {
+  margin: 0;
+  font-size: 19px;
+  color: #3f6273;
+}
+.kd-spacer {
+  flex: 1;
+}
+.kd-btn {
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: 1px solid #c9c3b8;
+  background: #f3f1ec;
+  color: #3f4a4a;
+  font-size: 12px;
+}
+.kd-btn:hover {
+  background: #e4e9e4;
+}
+.kd-btn-mood {
+  background: #7fb0cd;
+  border-color: #7fb0cd;
+  color: #2f3f46;
+}
+.kd-btn-mood:hover {
+  background: #6899b5;
+}
+.kd-section {
+  margin-bottom: 24px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--background-primary-alt, rgba(143, 163, 173, 0.06));
+  border: 1px solid rgba(201, 195, 184, 0.5);
+}
+.kd-section h3 {
+  font-size: 15px;
+  margin: 2px 0 10px;
+  color: #3f6273;
+}
+.kd-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0;
+}
+.kd-bar-label {
+  width: 240px;
+  flex-shrink: 0;
+}
+.kd-task-name {
+  display: block;
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.kd-bar-count {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.kd-bar-track {
+  flex: 1;
+  height: 14px;
+  border-radius: 7px;
+  background: rgba(201, 195, 184, 0.35);
+  overflow: hidden;
+  display: flex;
+}
+.kd-bar-fill {
+  height: 100%;
+  border-radius: 7px 0 0 7px;
+  transition: width 0.4s;
+}
+.kd-bar-fill-doing {
+  height: 100%;
+  opacity: 0.45;
+}
+.kd-bar-pct {
+  width: 42px;
+  text-align: right;
+  font-size: 13px;
+  color: #3f6273;
+  font-weight: 600;
+}
+.kd-footnote {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.kd-suggest {
+  background: rgba(155, 175, 155, 0.12);
+  border-color: rgba(155, 175, 155, 0.45);
+}
+.kd-suggest-card {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--background-primary);
+  border-left: 3px solid #63b26b;
+}
+.kd-suggest-title {
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: var(--text-normal);
+}
+.kd-note-link {
+  display: block;
+  padding: 2px 0;
+  color: var(--text-normal);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.kd-note-link:hover {
+  color: #3f6273;
+}
+.kd-meta {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-left: 8px;
+}
+.kd-empty {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.kd-todo-group {
+  margin-bottom: 12px;
+}
+.kd-todo-group h4 {
+  margin: 6px 0 3px;
+  font-size: 14px;
+  color: var(--text-normal);
+}
+.kd-topic-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 10px;
+}
+.kd-topic-btn {
+  cursor: pointer;
+  padding: 2px 10px;
+  border-radius: 12px;
+  border: 1px solid #c9c3b8;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.kd-topic-btn:hover {
+  background: rgba(143, 163, 173, 0.15);
+}
+.kd-topic-active {
+  background: #4e8ca6;
+  border-color: #4e8ca6;
+  color: #ffffff;
+}
+.kd-review-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.kd-mini {
+  padding: 0 8px;
+  font-size: 11px;
+}
